@@ -1,15 +1,15 @@
-# 🎯 HireFlow AI — Intelligent Recruitment Assistant
+# 🎯 Chaayan AI — Intelligent Recruitment Assistant
 
 > Microsoft Build AI Hackathon 2026 | Theme 01: AI at Work
 
 ## 🚀 Live Demo
-👉 https://ishanmishra16.github.io/hireflow-ai
+👉 https://ishanmishra16.github.io/ChaayanAI
 
 ## 📌 Problem Statement
 HR teams waste 40-60% of their time manually screening resumes. A typical job posting receives 250+ applications. This manual process is slow, biased, and inconsistent — causing companies to miss great candidates and waste recruiter time.
 
 ## 💡 Solution
-HireFlow AI is an intelligent recruitment assistant that:
+Chaayan AI is an intelligent recruitment assistant that:
 - **Ranks candidates** automatically against any job description
 - **Explains** why each candidate was ranked (pros, cons, neutral signals)
 - **Generates** 5 tailored interview questions per candidate
@@ -22,11 +22,6 @@ HR User → React Frontend → Groq API (Llama 3.3 70B)
 PDF.js (resume parsing)   AI Analysis
 ↓
 Candidate Rankings + Interview Questions + Red Flags
-### Microsoft AI Stack Used
-- **Azure Static Web Apps** — Hosting (GitHub Pages for demo)
-- **Groq API with Llama 3.3 70B** — LLM inference
-- **GitHub Copilot** — Used during development
-- **Azure AI Foundry** — Architecture reference
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js
