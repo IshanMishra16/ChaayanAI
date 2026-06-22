@@ -1,6 +1,5 @@
 # 🎯 Chaayan AI — Intelligent Recruitment Assistant
 
-> Microsoft Build AI Hackathon 2026 | Theme 01: AI at Work
 
 ## 🚀 Live Demo
 👉 https://ishanmishra16.github.io/ChaayanAI
