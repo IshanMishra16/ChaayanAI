@@ -50,7 +50,7 @@ function downloadExcel(candidates, rankView) {
   ];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "Top 10 Candidates");
-  XLSX.writeFile(wb, `HireFlow_Top10_${rankView === "experience" ? "ByExperience" : "ByOverallFit"}.xlsx`);
+  XLSX.writeFile(wb, `ChaayanAI_Top10_${rankView === "experience" ? "ByExperience" : "ByOverallFit"}.xlsx`);
 }
 
 async function downloadResumes(candidates, files, rankView) {
@@ -100,7 +100,7 @@ function LoginPage({ onLogin }) {
         {/* Logo */}
         <div style={{ textAlign: "center", marginBottom: 32 }}>
           <div style={{ width: 56, height: 56, background: "#059669", borderRadius: 16, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28, margin: "0 auto 16px" }}>🎯</div>
-          <div style={{ fontSize: 28, fontWeight: 700, color: "#fff" }}>HireFlow <span style={{ color: "#34d399" }}>AI</span></div>
+          <div style={{ fontSize: 28, fontWeight: 700, color: "#fff" }}>ChaayanAI <span style={{ color: "#34d399" }}>AI</span></div>
           <div style={{ fontSize: 13, color: "#64748b", marginTop: 4 }}>Intelligent recruitment assistant</div>
           <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>Microsoft Build AI Hackathon 2026</div>
         </div>
@@ -108,7 +108,7 @@ function LoginPage({ onLogin }) {
         {/* Login Card */}
         <div style={{ background: "#1e293b", borderRadius: 16, padding: 32, border: "1px solid #334155" }}>
           <div style={{ fontSize: 18, fontWeight: 600, color: "#fff", marginBottom: 4 }}>Welcome back</div>
-          <div style={{ fontSize: 13, color: "#64748b", marginBottom: 24 }}>Sign in to access HireFlow AI</div>
+          <div style={{ fontSize: 13, color: "#64748b", marginBottom: 24 }}>Sign in to access Chaayan AI</div>
 
           {/* Username */}
           <div style={{ marginBottom: 16 }}>
@@ -162,7 +162,7 @@ function LoginPage({ onLogin }) {
         </div>
 
         <div style={{ textAlign: "center", marginTop: 24, fontSize: 11, color: "#334155" }}>
-          © 2026 HireFlow AI · Microsoft Build AI Hackathon
+          © 2026 Chaayan AI · 
         </div>
       </div>
     </div>
@@ -198,7 +198,7 @@ export default function App() {
         return `--- RESUME: ${f.name} ---\n${text}`;
       }));
 
-      const prompt = `You are HireFlow AI, an expert recruiter and compensation specialist. Analyze these resumes against the job description.
+      const prompt = `You are Chaayan AI, an expert recruiter and compensation specialist. Analyze these resumes against the job description.
 
 JOB DESCRIPTION:
 ${jd}
@@ -291,7 +291,7 @@ IMPORTANT:
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <div style={{ width: 40, height: 40, background: "#0f172a", borderRadius: 10, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>🎯</div>
           <div>
-            <div style={{ fontSize: 22, fontWeight: 700, color: "#0f172a" }}>HireFlow <span style={{ color: "#059669" }}>AI</span></div>
+            <div style={{ fontSize: 22, fontWeight: 700, color: "#0f172a" }}>ChaayanAI <span style={{ color: "#059669" }}>AI</span></div>
             <div style={{ fontSize: 12, color: "#64748b" }}>Intelligent recruitment assistant · Microsoft Build AI Hackathon</div>
           </div>
         </div>
