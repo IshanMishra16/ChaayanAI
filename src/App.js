@@ -100,9 +100,8 @@ function LoginPage({ onLogin }) {
         {/* Logo */}
         <div style={{ textAlign: "center", marginBottom: 32 }}>
           <div style={{ width: 56, height: 56, background: "#059669", borderRadius: 16, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28, margin: "0 auto 16px" }}>🎯</div>
-          <div style={{ fontSize: 28, fontWeight: 700, color: "#fff" }}>ChaayanAI <span style={{ color: "#34d399" }}>AI</span></div>
+          <div style={{ fontSize: 28, fontWeight: 700, color: "#fff" }}>Chaayan <span style={{ color: "#34d399" }}>AI</span></div>
           <div style={{ fontSize: 13, color: "#64748b", marginTop: 4 }}>Intelligent recruitment assistant</div>
-          <div style={{ fontSize: 11, color: "#475569", marginTop: 4 }}>Microsoft Build AI Hackathon 2026</div>
         </div>
 
         {/* Login Card */}
@@ -291,8 +290,8 @@ IMPORTANT:
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <div style={{ width: 40, height: 40, background: "#0f172a", borderRadius: 10, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>🎯</div>
           <div>
-            <div style={{ fontSize: 22, fontWeight: 700, color: "#0f172a" }}>ChaayanAI <span style={{ color: "#059669" }}>AI</span></div>
-            <div style={{ fontSize: 12, color: "#64748b" }}>Intelligent recruitment assistant · Microsoft Build AI Hackathon</div>
+            <div style={{ fontSize: 22, fontWeight: 700, color: "#0f172a" }}>Chaayan <span style={{ color: "#059669" }}>AI</span></div>
+            <div style={{ fontSize: 12, color: "#64748b" }}>Intelligent recruitment assistant </div>
           </div>
         </div>
         <button onClick={() => setLoggedIn(false)}
